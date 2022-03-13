@@ -7,7 +7,7 @@ class RemoteService {
     var client = http.Client();
     var uri = Uri.parse('https://rest.coinapi.io/v1/assets');
     Map<String, String> header = {
-      'X-CoinAPI-Key': '121A6F4C-8EEA-4E3D-9405-23900B633B34'
+      'X-CoinAPI-Key': 'API KEY'
     };
 
     var response = await client.get(
